@@ -1,0 +1,51 @@
+<html>
+    <meta charset="utf-8">
+    <title>Site</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</html>
+<body>
+    
+    <section>
+        <div id="login2" class="col-xs-12 col-md4 col-sm-12">
+            <form>
+                <h1>faça o seu cadastro</h1>
+                <div class="form-group">
+                    <label for="primeiro nome">Insira seu primeiro nome:</label>
+                    <input type="text" class="form-control" id="primeironome" required>
+                </div>
+                <div class="form-group">
+                    <label for="Ultimo nome">Insira seu ultimo nome:</label>
+                    <input type="text" class="form-control" id="ultimonome" required>
+                </div>
+                <div class="form-group">
+                    <label for="data nascimento">Insira sua data de nascimento</label>
+                    <input type="date" class="form-control" id="datnasc" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Insira seu email:
+                        <p>Deve ser válido</p>
+                    </label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="nomeusuario">Insira um nome de usuário:</label>
+                    <input type="text" class="form-control" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Crie uma senha:
+                        <p>Requisitos: <span>8 caracteres, 1 caracter especial e 1 número.</span> </p>
+                    </label>
+                    <input type="password" class="form-control" id="senha" required>
+                </div>
+                <div id="botoes">
+                    <button id="cadastrar" class="btn btn-outline-primary">Cadastrar</button> 
+                </div>    
+            </form>
+        </div>
+    </section>
+    <script src="js/jquery-3.3.1min.js"></script>
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+    <script src="js/cadastro.js"></script>
+</body>
