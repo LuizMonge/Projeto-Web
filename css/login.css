@@ -54,17 +54,77 @@ section #login2 form #botoes button {
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-	
+  {
+	section #login2 {
+        border: 1px solid #000 !important;
+        width: 87% !important;
+        height: 538px !important;
+        margin: 10px 20px !important;
+        border-radius: 30px !important;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    section #login2 form img {
+        height: 180px;
+        margin: 20px 145px 30px 15%;
+    }
+    
+    section #login2 form input {
+        margin: 10px 4%;
+        height: 55px;
+        width: 230px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    
+    section #login2 form #botoes  {
+        height: 120px;
+        width: 320px;
+        margin: 10px 4%;
+    }
+    
+    section #login2 form #botoes button {
+        margin: 5px 0px;
+        border-radius: 10px;
+    }
 }
 
-/* Portrait */
+/* Nexus */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+  and (min-device-width: 384px) 
+  {
+    section #login2 {
+        border: 1px solid #000 !important;
+        width: 87% !important;
+        height: 97% !important;
+        margin: 10px 20px !important;
+        border-radius: 30px !important;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    section #login2 form img {
+        height: 180px !important;
+        margin: 20px 145px 30px 23% !important;
+    }
+    
+    section #login2 form input {
+        margin: 10px 4% !important;
+        height: 55px !important;
+        width: 90% !important;
+        border-radius: 15px !important;
+        padding: 20px !important;
+    }
+    
+    section #login2 form #botoes  {
+        height: 120px !important;
+        width: 320px !important;
+        margin: 10px 0% !important;
+    }
+    
+    section #login2 form #botoes button {
+        margin: 5px 5% !important;
+        border-radius: 10px !important;
+    }
 }
 
 /* Landscape */
