@@ -89,6 +89,44 @@ section #login2 form #botoes button {
     }
 }
 
+@media only screen 
+  and (min-device-width: 359px) 
+  {
+	section #login2 {
+        border: 1px solid #000 !important;
+        width: 87% !important;
+        height: 520px !important;
+        margin: 10px 25px !important;
+        border-radius: 30px !important;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    section #login2 form img {
+        height: 180px;
+        margin: 20px 145px 30px 15%;
+    }
+    
+    section #login2 form input {
+        margin: 10px 4%;
+        height: 55px;
+        width: 90%;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    
+    section #login2 form #botoes  {
+        height: 120px;
+        width: 90%;
+        margin: 10px 6%;
+    }
+    
+    section #login2 form #botoes button {
+        margin: 5px 2px;
+        border-radius: 10px;
+    }
+}
+
+
 /* Nexus */
 @media only screen 
   and (min-device-width: 384px) 
@@ -96,7 +134,7 @@ section #login2 form #botoes button {
     section #login2 {
         border: 1px solid #000 !important;
         width: 87% !important;
-        height: 97% !important;
+        height: 530px !important;
         margin: 10px 20px !important;
         border-radius: 30px !important;
         font-family: 'Nunito', sans-serif;
@@ -128,182 +166,116 @@ section #login2 form #botoes button {
 }
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
+@media (min-device-width: 410px) 
+ {
+    section #login2 {
+        border: 1px solid #000 !important;
+        width: 87% !important;
+        height: 520px !important;
+        margin: 20px 7% !important;
+        border-radius: 30px !important;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    section #login2 form img {
+        height: 180px !important;
+        margin: 20px 145px 30px 25% !important;
+    }
+    
+    section #login2 form input {
+        margin: 10px 4% !important;
+        height: 55px !important;
+        width: 90% !important;
+        border-radius: 15px !important;
+        padding: 20px !important;
+    }
+    
+    section #login2 form #botoes  {
+        height: 120px !important;
+        width: 80% !important;
+        margin: 20px 8% !important;
+    }
+    
+    section #login2 form #botoes button {
+        width: 37% !important;
+        border-radius: 10px !important;
+    }
 
 }
 
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  { 
-	section #login2 {
-    border: 1px solid #000 !important;
-    width: 90% !important;
-    height: 80% !important;
-    margin: 20px 27px !important;
-    border-radius: 30px !important;
-    font-family: 'Nunito', sans-serif;
-}
-
-section #login2 form img {
-    height: 180px;
-    margin: 60px 145px 30px 30%;
-}
-
-section #login2 form input {
-    margin: 10px 20%;
-    height: 55px;
-    width: 280px;
-    border-radius: 15px;
-    padding: 20px;
-}
-
-section #login2 form #botoes  {
-    height: 120px;
-    width: 320px;
-    margin: 10px 16%;
-}
-
-section #login2 form #botoes button {
-    margin: 5px 20px;
-    border-radius: 10px;
-}
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+@media (min-device-width: 680px) 
+ {
+    section #login2 {
+        border: 1px solid #000 !important;
+        width: 87% !important;
+        height: 530px !important;
+        margin: 20px 7% !important;
+        border-radius: 30px !important;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    section #login2 form img {
+        height: 180px !important;
+        margin: 20px 145px 30px 40% !important;
+    }
+    
+    section #login2 form input {
+        margin: 10px 4% !important;
+        height: 55px !important;
+        width: 90% !important;
+        border-radius: 15px !important;
+        padding: 20px !important;
+    }
+    
+    section #login2 form #botoes  {
+        height: 120px !important;
+        width: 80% !important;
+        margin: 20px 8% !important;
+    }
+    
+    section #login2 form #botoes button {
+        width: 37% !important;
+        border-radius: 10px !important;
+    }
 
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
 
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px)  { 
-section #login2 {
-    border: 1px solid #000 !important;
-    width: 90% !important;
-    height: 80% !important;
-    margin: 20px 20px !important;
-    border-radius: 30px !important;
-    font-family: 'Nunito', sans-serif;
-}
-
-section #login2 form img {
-    height: 180px;
-    margin: 60px 145px 30px 25%;
-}
-
-section #login2 form input {
-    margin: 10px 10%;
-    height: 55px;
-    width: 280px;
-    border-radius: 15px;
-    padding: 20px;
-}
-
-section #login2 form #botoes  {
-    height: 120px;
-    width: 320px;
-    margin: 10px 5%;
-}
-
-section #login2 form #botoes button {
-    margin: 5px 20px;
-    border-radius: 10px;
-}
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
+@media (min-device-width: 720px) 
+ {
+    section #login2 {
+        border: 1px solid #000 !important;
+        width: 35% !important;
+        height: 530px !important;
+        margin: 20px 60% !important;
+        border-radius: 30px !important;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    
+    section #login2 form img {
+        height: 180px !important;
+        margin: 20px 145px 30px 25% !important;
+    }
+    
+    section #login2 form input {
+        margin: 10px 4% !important;
+        height: 55px !important;
+        width: 90% !important;
+        border-radius: 15px !important;
+        padding: 20px !important;
+    }
+    
+    section #login2 form #botoes  {
+        height: 120px !important;
+        width: 370px !important;
+        margin: 10px 6% !important;
+    }
+    
+    section #login2 form #botoes button {
+        margin: 5px 1px !important;
+        width: 48% !important; 
+        border-radius: 10px !important;
+    }
+    
 }
